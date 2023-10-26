@@ -202,7 +202,87 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2086750272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086750274}
+  - component: {fileID: 2086750273}
+  m_Layer: 0
+  m_Name: Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2086750273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086750272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea6696d2f5ed9e4e844a641336a9586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sword:
+    EntityDefinition: {fileID: 11400000, guid: ca0070cb2cb15b0468ee1920866f2aac, type: 2}
+  Ring:
+    EntityDefinition: {fileID: 11400000, guid: ec14b54c8588d2b46bb53c48a6befd25, type: 2}
+  Belt:
+    EntityDefinition: {fileID: 11400000, guid: 87edec45e0cc411488d6d51ee07fe55d, type: 2}
+  _result_1:
+    rid: 1855174687281381409
+  _result_2:
+    rid: 1855174687281381410
+  _result_3:
+    rid: 1855174687281381411
+  _result_4:
+    rid: 1855174687281381412
+  references:
+    version: 2
+    RefIds:
+    - rid: 1855174687281381409
+      type: {class: UWeaponAttribute, ns: , asm: Assembly-CSharp}
+      data:
+        BaseDamage: 10
+    - rid: 1855174687281381410
+      type: {class: UGearAttribute, ns: , asm: Assembly-CSharp}
+      data:
+        Attack: 30
+        Defense: 30
+    - rid: 1855174687281381411
+      type: {class: UWeaponAttribute, ns: , asm: Assembly-CSharp}
+      data:
+        BaseDamage: 5
+    - rid: 1855174687281381412
+      type: {class: UGearAttribute, ns: , asm: Assembly-CSharp}
+      data:
+        Attack: 10
+        Defense: 10
+--- !u!4 &2086750274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086750272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
