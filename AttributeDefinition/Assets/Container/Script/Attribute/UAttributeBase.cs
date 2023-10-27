@@ -5,11 +5,14 @@
 /// </summary>
 public abstract class UAttributeBase
 {
-	public static UAttributeBase operator +(UAttributeBase left, UAttributeBase right) => left.Add(right);
-	public static UAttributeBase operator -(UAttributeBase left, UAttributeBase right) => left.Remove(right);
+	public static UAttributeBase operator +(UAttributeBase left, UAttributeBase right) =>
+		left is null || right is null ? null : left.Add(right);
+
+	public static UAttributeBase operator -(UAttributeBase left, UAttributeBase right) =>
+		left is null || right is null ? null : left.Remove(right);
 
 	protected abstract UAttributeBase Add(UAttributeBase other);
 	protected abstract UAttributeBase Remove(UAttributeBase other);
-
 	public abstract UAttributeBase Clone();
+	public abstract UAttributeBase Random();
 }

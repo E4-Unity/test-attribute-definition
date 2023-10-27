@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GD_Belt
   m_EditorClassIdentifier: 
   _attribute:
-    Attack: 2
-    Defense: 7
+    _attack: 3
+    _defense: 9

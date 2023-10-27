@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GD_Ring
   m_EditorClassIdentifier: 
   _attribute:
-    Attack: 4
-    Defense: 8
+    _attack: 4
+    _defense: 7

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: WD_Sword
   m_EditorClassIdentifier: 
   _attribute:
-    BaseDamage: 10
+    _baseDamage: 10
